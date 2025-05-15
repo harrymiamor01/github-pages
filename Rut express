@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rut Express</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white p-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-3xl font-bold">Rut Express</h1>
+      <p class="text-sm mt-1">Facilitamos tus trámites administrativos en Dagua</p>
+    </div>
+  </header>
+
+  <!-- Sección: Quiénes Somos -->
+  <section class="py-10 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">¿Quiénes somos?</h2>
+    <p class="mb-4">
+      Somos un equipo joven del INTEP que busca ayudar a nuestra comunidad con trámites como RUT, Registro Mercantil y Seguridad Social. Nuestro objetivo es simplificar estos procesos con eficiencia y atención personalizada.
+    </p>
+    <p class="font-medium">Integrantes: Nicolás G., Johan S., Sara M., Dana S.</p>
+  </section>
+
+  <!-- Sección: Servicios -->
+  <section class="bg-white py-10 px-4 shadow-md">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Servicios</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Asesorías personalizadas</li>
+        <li>Trámite de RUT</li>
+        <li>Registro Mercantil</li>
+        <li>Seguridad Social</li>
+        <li>Digitalización y organización de documentos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sección: Ventajas -->
+  <section class="py-10 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">¿Por qué elegirnos?</h2>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Rapidez y eficiencia</li>
+      <li>Accesibilidad digital</li>
+      <li>Atención personalizada</li>
+      <li>Confiabilidad y profesionalismo</li>
+      <li>Únicos en la zona</li>
+    </ul>
+  </section>
+
+  <!-- Sección: Contacto -->
+  <section class="bg-blue-100 py-10 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Contacto</h2>
+      <p class="mb-4">Escríbenos para agendar tu asesoría:</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Tu nombre" class="w-full p-2 border border-gray-300 rounded">
+        <input type="email" placeholder="Tu correo electrónico" class="w-full p-2 border border-gray-300 rounded">
+        <textarea placeholder="Tu mensaje" class="w-full p-2 border border-gray-300 rounded h-32"></textarea>
+        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4">
+    <p>&copy; 2025 Rut Express - Proyecto INTEP</p>
+  </footer>
+</body>
+</html>
